@@ -1,0 +1,9 @@
+## 协同git的基本语句
+git init   
+git config --global user.email "why_6267@163.com"  
+git config --global user.name "WenDong"  
+git add .  
+git commit -m "Initial Commit"  
+git remote add origin https://e.coding.net/wanghyi/selfwork/segNet.git  
+git pull origin master --allow-unrelated-histories  
+git push origin master
